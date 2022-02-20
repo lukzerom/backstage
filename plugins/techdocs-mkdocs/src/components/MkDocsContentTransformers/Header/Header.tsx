@@ -14,6 +14,18 @@
  * limitations under the License.
  */
 
-export * from './MkDocsContent';
-export * from './MkDocsContentTransformers';
-export * from './techDocsPage';
+import { useEffect } from 'react';
+import { useTechDocsShadowDom } from '@backstage/plugin-techdocs';
+
+export const HeaderTransformer = () => {
+  const dom = useTechDocsShadowDom();
+
+  useEffect(() => {
+    if (!dom) return;
+
+    // Remove the header
+    dom.querySelector('.md-header')?.remove();
+  }, [dom]);
+
+  return null;
+};

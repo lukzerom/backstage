@@ -14,6 +14,9 @@
  * limitations under the License.
  */
 
-export * from './MkDocsContent';
-export * from './MkDocsContentTransformers';
-export * from './techDocsPage';
+export { variable } from './variable';
+export { reset } from './reset';
+export { layout } from './layout';
+export { typeset } from './typeset';
+export { animation } from './animation';
+export { extension } from './extension';
