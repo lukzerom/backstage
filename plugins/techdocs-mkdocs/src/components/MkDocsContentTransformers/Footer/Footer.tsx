@@ -18,7 +18,7 @@ import { useEffect } from 'react';
 import { useTechDocsShadowDom } from '@backstage/plugin-techdocs';
 
 const FOOTER_SELECTOR = '.md-footer';
-const FOOTER_COPYRIGHT_SELECTOR = '.md-footer-copyright';
+const FOOTER_COPYRIGHT_SELECTOR = '.md-footer .md-copyright';
 
 export const FooterTransformer = () => {
   const dom = useTechDocsShadowDom();

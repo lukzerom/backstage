@@ -33,12 +33,12 @@ describe('Footer', () => {
     const dom = createDom(
       <body>
         <footer className="md-footer">
-          <div className="md-footer-copyright" />
+          <div className="md-copyright" />
         </footer>
       </body>,
     );
 
-    expect(dom.querySelector('.md-footer-copyright')).not.toBeNull();
+    expect(dom.querySelector('.md-copyright')).not.toBeNull();
 
     render(
       <TechDocsShadowDomProvider dom={dom}>
@@ -46,14 +46,14 @@ describe('Footer', () => {
       </TechDocsShadowDomProvider>,
     );
 
-    expect(dom.querySelector('.md-footer-copyright')).toBeNull();
+    expect(dom.querySelector('.md-copyright')).toBeNull();
   });
 
   it('Should have same width of the dom', () => {
     const dom = createDom(
       <body>
         <footer className="md-footer">
-          <div className="md-footer-copyright" />
+          <div className="md-copyright" />
         </footer>
       </body>,
     );
