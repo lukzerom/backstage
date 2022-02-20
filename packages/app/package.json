@@ -50,6 +50,7 @@
     "@backstage/plugin-shortcuts": "^0.2.0",
     "@backstage/plugin-tech-radar": "^0.5.6",
     "@backstage/plugin-techdocs": "^0.13.4",
+    "@backstage/plugin-techdocs-mkdocs": "^0.0.1",
     "@backstage/plugin-todo": "^0.2.1",
     "@backstage/plugin-user-settings": "^0.3.20",
     "@backstage/search-common": "^0.2.3",
