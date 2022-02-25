@@ -1,5 +1,13 @@
 # @backstage/plugin-catalog-backend
 
+## 0.22.1
+
+### Patch Changes
+
+- cb09096607: Tweaked the wording of the "does not have a location" errors to include the actual missing annotation name, to help users better in fixing their inputs.
+- Updated dependencies
+  - @backstage/integration@0.7.6
+
 ## 0.22.0
 
 ### Minor Changes

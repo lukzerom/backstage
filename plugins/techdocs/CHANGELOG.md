@@ -1,5 +1,16 @@
 # @backstage/plugin-techdocs
 
+## 0.14.1
+
+### Patch Changes
+
+- c5fda066b1: Collapse techdocs sidebar on small devices
+- 5b0f9a75fa: Remove copyright from old footer in documentation generated with previous version of `mkdocs-techdocs-plugin` (`v0.2.2`).
+- 0ca964ee0e: Fixed a bug that could cause searches in the in-context TechDocs search bar to show results from a different TechDocs site.
+- Updated dependencies
+  - @backstage/integration@0.7.6
+  - @backstage/core-components@0.8.11
+
 ## 0.14.0
 
 ### Minor Changes

@@ -1,5 +1,11 @@
 # @backstage/core-components
 
+## 0.8.11
+
+### Patch Changes
+
+- 689840dcbe: Added ability for SidebarSubmenuItem to handle external links correctly via the "to" prop
+
 ## 0.8.10
 
 ### Patch Changes

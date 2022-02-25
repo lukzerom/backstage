@@ -1,5 +1,16 @@
 # @backstage/plugin-scaffolder-backend
 
+## 0.17.2
+
+### Patch Changes
+
+- 7372f29473: Cleanup API report
+- c7f6424a26: Applied fix from `v0.17.1` of this package which is part of the `v0.69.1` release of Backstage.
+- 8119a9e011: Fix the support for custom defaultBranch values for Bitbucket Cloud at the `publish:bitbucket` scaffolder action.
+- Updated dependencies
+  - @backstage/plugin-catalog-backend@0.22.1
+  - @backstage/integration@0.7.6
+
 ## 0.17.1
 
 ### Patch Changes

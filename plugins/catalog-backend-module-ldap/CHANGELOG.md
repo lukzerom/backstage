@@ -1,5 +1,13 @@
 # @backstage/plugin-catalog-backend-module-ldap
 
+## 0.3.15
+
+### Patch Changes
+
+- 66aa05c23c: Fixed bug in Catalog LDAP module to acknowledge page events to continue receiving entries if pagePause=true
+- Updated dependencies
+  - @backstage/plugin-catalog-backend@0.22.1
+
 ## 0.3.14
 
 ### Patch Changes

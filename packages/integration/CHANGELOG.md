@@ -1,5 +1,11 @@
 # @backstage/integration
 
+## 0.7.6
+
+### Patch Changes
+
+- 33d5e79822: Fix Bitbucket Cloud and Bitbucket Server line number reference.
+
 ## 0.7.5
 
 ### Patch Changes
